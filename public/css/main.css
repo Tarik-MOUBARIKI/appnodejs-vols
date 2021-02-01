@@ -24,7 +24,7 @@ section {
 }
 
 .header_g{
-    height: 84vh;
+    height: 100vh;
     background-image: url(../images/header.jpg);
     background-size: cover;
     background-position: center;
@@ -35,8 +35,8 @@ section {
   }
 
   .header_search{
-    height: 84vh;
-    background-color: #dee2e6;
+    height: 100vh;
+    background-image: url(../images/header.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -128,5 +128,6 @@ table.table tr th, table.table tr td     {
 	padding: 0;
 
 }
+
 
  
