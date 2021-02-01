@@ -23,16 +23,16 @@ router.get('/confirmer/:userId/:idVol/:nbrplace',(req, res) => {
         var transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-              user: 'tmail1058@gmail.com',
-              pass: 'test@2020'
+              user: 'mashakills.bb@gmail.com',
+              pass: 'azerty2020'
             }
           });
           
           var mailOptions = {
-            from: 'tmail1058@gmail.com',
+            from: 'mashakills.bb@gmail.com',
             to: resEmail,
             subject: 'Sending Email using Node.js',
-            text: 'test num 10!',
+            text: 'votre reservation....',
             html: ` 
               <table width="100%" border="0" cellspacing="0" cellpadding="0" style="min-width: 320px;"><tr><td align="center" bgcolor="#eff3f8">
 
